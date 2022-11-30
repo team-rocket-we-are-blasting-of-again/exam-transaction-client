@@ -8,7 +8,7 @@ export default function TransactionBox({ list, theader, float }) {
       style={{ float: float, width: "40%" }}
     >
       <table>
-        <thead className="send-button">
+        <thead className="send-button" id={float}>
           <tr>
             <th style={{ color: "green" }}>{theader}</th>
           </tr>

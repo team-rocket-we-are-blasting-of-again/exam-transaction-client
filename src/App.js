@@ -1,11 +1,11 @@
 import React from "react";
 import TransactionViewer from "./components/TransactionViewer";
-import Login from "./components/Login";
+import TransactionPost from "./components/TransactionPost";
 
 const App = () => {
   return (
     <>
-    <Login/>
+      
       <TransactionViewer />
     </>
   );
